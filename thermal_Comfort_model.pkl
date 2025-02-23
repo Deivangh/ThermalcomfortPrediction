@@ -78,7 +78,7 @@ plt.show()
 
 import pickle
 
-with open("thermal_comfort_model.pkl", "wb") as file:
+with open("thermal_Comfort_model.pkl", "wb") as file:
     pickle.dump(model, file)
 
 # Save the scaler
